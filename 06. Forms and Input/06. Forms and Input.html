@@ -1,35 +1,127 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
 
-    <!-- Defines an HTML form for user input  -->
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
 
-    <!-- Defines an input control -->
+<body>
 
-    <!-- Defines a multiline input control (text area)  -->
+  <!-- <form> Defines an HTML form for user input  -->
+  <!-- <form> sirve para crear un formulario -->
 
-    <!-- Defines a clickable button -->
+  <form action="" method="post">
+  </form>
 
-    <!-- Defines a drop-down list -->
+  <!-- <input> Defines an input control -->
+  <!-- <input> sirve para crear un input, textarea, select, radio, checkbox, etc. -->
 
-    <!-- Defines a group of related options in a drop-down list -->
+  <input type="text" name="name" value="">
+  <input type="button" name="button" value="">
+  <input type="checkbox" name="checkbox" value="">
+  <input type="radio" name="radio" value="">
+  <input type="submit" name="submit" value="">
+  <input type="reset" name="reset" value="">
+  <input type="image" name="image" value="">
+  <input type="hidden" name="hidden" value="">
+  <input type="file" name="file" value="">
+  <input type="password" name="password" value="">
+  <input type="search" name="search" value="">
+  <input type="tel" name="tel" value="">
+  <input type="url" name="url" value="">
+  <input type="email" name="email" value="">
+  <input type="date" name="date" value="">
+  <input type="month" name="month" value="">
+  <input type="week" name="week" value="">
+  <input type="time" name="time" value="">
+  <input type="datetime" name="datetime" value="">
+  <input type="datetime-local" name="datetime-local" value="">
+  <input type="color" name="color" value="">
+  <input type="range" name="range" value="">
 
-    <!-- Defines an option in a drop-down list -->
+  <!-- <textarea> Defines a multiline input control (text area)  -->
+  <!-- <textarea> sirve para crear un textarea la cual es un input de tipo texto -->
 
-    <!-- Defines a label for an <input> element -->
+  <textarea name="textarea" rows="8" cols="80"></textarea>
 
-    <!-- Groups related elements in a form -->
+  <!-- <button> Defines a clickable button -->
+  <!-- <button> sirve para crear un boton el cual es un input de tipo button -->
 
-    <!-- Defines a caption for a <fieldset> element -->
+  <button type="button" name="button">Boton</button>
 
-    <!-- Specifies a list of pre-defined options for input controls -->
+  <!-- <select> Defines a drop-down list -->
+  <!-- <select> sirve para crear un select el cual es un input de tipo select o combobox -->
 
-    <!-- Defines the result of a calculation -->
+  <select name="select">
+    <option value="">Seleccione</option>
+    <option value="">1</option>
+    <option value="">2</option>
+    <option value="">3</option>
+    <option value="">4</option>
+    <option value="">5</option>
+  </select>
 
+  <!-- <optgroup> Defines a group of related options in a drop-down list -->
+  <!-- <optgroup> sirve para crear un grupo de opciones en un select el cual es un input de tipo optgroup -->
 
-  </body>
+  <optgroup label="Grupo">
+    <option value="">1</option>
+    <option value="">2</option>
+    <option value="">3</option>
+    <option value="">4</option>
+    <option value="">5</option>
+  </optgroup>
+
+  <!-- <option> Defines an option in a drop-down list -->
+  <!-- <option> sirve para crear una opcion en un select el cual es un input de tipo option -->
+
+  <option value="">1</option>
+  <option value="">2</option>
+  <option value="">3</option>
+  <option value="">4</option>
+
+  <!-- <label> Defines a label for an <input> element -->
+  <!-- <label> sirve para crear un label para un input el cual es un input de tipo label o etiqueta -->
+
+  <label for="">Label</label>
+
+  <!-- <fieldset> Groups related elements in a form -->
+  <!-- <fieldset> sirve para crear un fieldset el cual es un input de tipo fieldset o grupo de campos -->
+
+  <fieldset>
+    <legend>title fieldset</legend>
+    <input type="text" name="name" value="">
+    <input type="text" name="name" value="">
+    <input type="button" name="button" value="Este es un boton">
+  </fieldset>
+
+  <!-- <legend> Defines a caption for a <fieldset> element -->
+
+  <legend>title fieldset</legend>
+
+  <!-- <datalist> Specifies a list of pre-defined options for input controls -->
+  <!-- <datalist> sirve para crear un datalist el cual es un input de tipo datalist o lista de datos -->
+
+  <datalist id="datalist">
+    <option value="">1</option>
+    <option value="">2</option>
+    <option value="">3</option>
+    <option value="">4</option>
+    <option value="">5</option>
+  </datalist>
+
+  <!-- <output> Defines the result of a calculation -->
+  <!-- <output> sirve para crear un output el cual es un input de tipo output o resultado de un calculo -->
+
+  <output name="output" for="">Resultado</output>
+
+  <!-- <form oninput="x.value=parseInt(a.value)*parseInt(b.value)">
+    <input type="range" name="a" value="100">
+    <input type="number" name="b" value="2">
+    <output name="x" for="a b"></output>
+  </form> -->
+  
+</body>
+
 </html>
