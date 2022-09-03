@@ -1,85 +1,439 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
 
-    <!-- Defines an acronym -->
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
 
-    <!-- Defines an abbreviation or an acronym -->
+<body>
 
-    <!-- Defines contact information for the author/owner of a document/article -->
+  <!-- <acronym> Defines an acronym not supported in HTML5 -->
+  <!-- <acronym> sirve para crear un acronimo lo cual se ocupa para definir un acronimo en el cliente y que no sea soportado en html5 -->
 
-    <!-- Defines bold text -->
+  <acronym></acronym>
 
-    <!-- Isolates a part of text that might be formatted in a different direction from other text outside it -->
+  <!-- ejemplo de un <acronym> -->
 
-    <!-- Overrides the currect text direction -->
+  <acronym title="Acronym">ACR</acronym>
 
-    <!-- Defines big text -->
+  <!-- <abbr> Defines an abbreviation or an acronym -->
+  <!-- <abbr> sirve para crear un abreviacion o acronimo lo cual se ocupa para definir un abreviacion o acronimo en el cliente -->
 
-    <!-- Defines a section that is quoted from another source -->
+  <abbr></abbr>
 
-    <!-- Defines centered text -->
+  <!-- ejemplo de un <abbr> -->
 
-    <!-- Defines the title of a work -->
+  <abbr title="Hypertext Markup Language">HTML</abbr>
 
-    <!-- Defines a piece of computer code -->
+  <!-- <address> Defines contact information for the author/owner of a document/article -->
+  <!-- <address> sirve para crear una direccion de contacto para el autor/propietario de un documento/articulo lo cual se ocupa para definir una direccion de contacto para el autor/propietario de un documento/articulo en el cliente -->
 
-    <!-- Defines text that has been deleted from a document -->
+  <address></address>
 
-    <!-- Specifies a term that is going to be defined within the content -->
+  <!-- ejemplo de un <address> -->
 
-    <!-- Defines emphasized text -->
+  <div>
+    <address>
+      <p>
+        <strong>Company Name</strong>
+        <br>
+        Address Line 1
+        <br>
+        Address Line 2
+        <br>
+        <abbr title="Phone">P:</abbr> (123) 456-7890
+        <br>
+    </address>
+  </div>
 
-    <!-- Defines font, color, and size for text -->
+  <!-- <b> Defines bold text -->
+  <!-- <b> sirve para crear un texto en negrita lo cual se ocupa para definir un texto en negrita en el cliente -->
 
-    <!-- Defines a part of text in an alternate voice or mood -->
+  <b></b>
 
-    <!-- Defines a text that has been inserted into a document -->
+  <!-- ejemplo de un <b> -->
 
-    <!-- Defines keyboard input -->
+  <b>Bold</b>
 
-    <!-- Defines marked/highlighted text -->
+  <!-- <bdi> Isolates a part of text that might be formatted in a different direction from other text outside it -->
+  <!-- <bdi> sirve para cambiar la direccion de texto dentro de un elemento lo cual se ocupa para cambiar la direccion de texto dentro de un elemento en el cliente -->
 
-    <!-- Defines a scalar measurement within a known range (a gauge) -->
+  <bdi></bdi>
 
-    <!-- Defines preformatted text -->
+  <!-- ejemplo de un <bdi> -->
 
-    <!-- Represents the progress of a task -->
+  <h1>more text <bdi dir="ltr">in the middle</bdi> more text</h1>
 
-    <!-- Defines a short quotation -->
+  <!-- <bdo> Overrides the currect text direction -->
+  <!-- <bdo> sirve para invertir la direccion del texto lo cual se ocupa para invertir la direccion del texto en el cliente -->
 
-    <!-- Defines what to show in browsers that do not support ruby annotations -->
+  <bdo></bdo>
 
-    <!-- Defines an explanation/pronunciation of characters (for East Asian typography)-->
+  <!-- ejemplo de un <bdo> -->
 
-    <!-- Defines a ruby annotation (for East Asian typography) -->
+  <p> este es un texto <bdo dir="rtl">en español</bdo> </p>
 
-    <!-- Defines text that is no longer correct -->
+  <!-- <big> Defines big text  no supported in HTML5 -->
+  <!-- <big> sirve para crear un texto grande lo cual se ocupa para definir un texto grande en el cliente -->
 
-    <!-- Defines sample output from a computer program -->
+  <big></big>
 
-    <!-- Defines smaller text -->
+  <!-- ejemplo de un <big> -->
 
-    <!-- Defines strikethrough text -->
+  <p>This is a <big>Big</big> text.</p>
 
-    <!-- Defines important text -->
+  <!-- <blockquote> Defines a section that is quoted from another source -->
+  <!-- <blockquote> sirve para crear una cita de una fuente lo cual se ocupa para definir una cita de una fuente en el cliente -->
 
-    <!-- Defines subscripted text -->
+  <blockquote></blockquote>
 
-    <!-- Defines superscripted text -->
+  <!-- ejemplo de un <blockquote> -->
 
-    <!-- Defines a container for content that should be hidden when the page loads -->
+  <p>This is a
+  <blockquote>blockquote</blockquote>.</p>
 
-    <!-- Defines a specific time (or datetime)-->
+  <!-- <center> Defines centered text -->
+  <!-- <center> sirve para crear un texto centrado lo cual se ocupa para definir un texto centrado en el cliente -->
 
-    <!-- Defines teletype text -->
+  <center></center>
 
-    <!-- Defines a variable -->
+  <!-- ejemplo de un <center> -->
 
+  <p>This is a <center>center</center>.</p>
 
-  </body>
+  <!-- <cite> Defines the title of a work -->
+  <!-- <cite> sirve para crear un titulo de un trabajo lo cual se ocupa para definir un titulo de un trabajo en el cliente -->
+
+  <cite></cite>
+
+  <!-- ejemplo de un <cite> -->
+
+  <p>This is a <cite>cite</cite>.</p>
+
+  <!-- <code> Defines a piece of computer code -->
+  <!-- <code> sirve para crear un codigo de computador lo cual se ocupa para definir un codigo de computador en el cliente -->
+
+  <code></code>
+
+  <!-- ejemplo de un <code> -->
+
+  <p>This is a code javascript:<br>
+    <code>
+    <br>
+    // codigo en javascript
+    <br>
+    var x = 10; <br>
+    var y = 20; <br>
+    var z = x + y; <br>
+    console.log(z); <br>  
+
+  </code>
+  </p>
+
+  <!-- <del> Defines text that has been deleted from a document -->
+  <!-- <del> sirve para crear un texto que ha sido eliminado de un documento lo cual se ocupa para definir un texto que ha sido eliminado de un documento en el cliente -->
+
+  <del></del>
+
+  <!-- ejemplo de un <del> -->
+
+  <p>This is a <del>deleted</del> text.</p>
+
+  <!-- <dfn> Specifies a term that is going to be defined within the content -->
+  <!-- <dfn> sirve para crear un termino que va a ser definido dentro del contenido lo cual se ocupa para definir un termino que va a ser definido dentro del contenido en el cliente -->
+
+  <dfn></dfn>
+
+  <!-- ejemplo de un <dfn> -->
+
+  <p>This is a <dfn>dfn</dfn>.</p>
+
+  <!--<em> Defines emphasized text -->
+  <!-- <em> sirve para crear un texto enfatizado lo cual se ocupa para definir un texto enfatizado en el cliente -->
+
+  <em></em>
+
+  <!-- ejemplo de un <em> -->
+
+  <p>This is a <em>emphasized</em> text.</p>
+
+  <!-- <font> Defines font, color, and size for text -->
+  <!-- <font> sirve para crear una fuente, color, y tamaño de texto lo cual se ocupa para definir una fuente, color, y tamaño de texto en el cliente -->
+
+  <font></font>
+
+  <!-- ejemplo de un <font> -->
+
+  <p>This is a <font color="red" size="5">font</font>.</p>
+
+  <!-- <i> Defines a part of text in an alternate voice or mood -->
+  <!-- <i> sirve para crear una parte de texto en una voz alternativa o de un estado diferente lo cual se ocupa para definir una parte de texto en una voz alternativa o de un estado diferente en el cliente -->
+
+  <i></i>
+
+  <!-- ejemplo de un <i> -->
+
+  <p>This is a <i>italic</i> text.</p>
+
+  <!-- <ins> Defines a text that has been inserted into a document -->
+  <!-- <ins> sirve para crear un texto que ha sido insertado en un documento lo cual se ocupa para definir un texto que ha sido insertado en un documento en el cliente -->
+
+  <ins></ins>
+
+  <!-- ejemplo de un <ins> -->
+
+  <p>This is a <ins>inserted</ins> text.</p>
+
+  <!-- <kbd> Defines keyboard input -->
+  <!-- <kbd> sirve para crear una entrada de teclado lo cual se ocupa para definir una entrada de teclado en el cliente -->
+
+  <kbd></kbd>
+
+  <!-- ejemplo de un <kbd> -->
+
+  <p>This is a <kbd>keyboard</kbd> text.</p>
+
+  <!-- <mark> Defines marked/highlighted text -->
+  <!-- <mark> sirve para crear un texto marcado o resaltado lo cual se ocupa para definir un texto marcado o resaltado en el cliente -->
+
+  <mark></mark>
+
+  <!-- ejemplo de un <mark> -->
+
+  <p>This is a <mark>marked</mark> text.</p>
+
+  <!-- <meter> Defines a scalar measurement within a known range (a gauge) -->
+  <!-- <meter> sirve para crear una medida escalar dentro de un rango conocido (un indicador) lo cual se ocupa para definir una medida escalar dentro de un rango conocido (un indicador) en el cliente -->
+
+  <meter></meter>
+
+  <!-- ejemplo de un <meter> -->
+
+  <br>
+  <label for="disk_C">C:</label>
+  <meter id="disk_C" value="50" min="0" max="100"></meter>
+
+  <!-- <pre> Defines preformatted text -->
+  <!-- <pre> sirve para crear un texto preformateado lo cual se ocupa para definir un texto preformateado en el cliente -->
+
+  <pre></pre>
+
+  <!-- ejemplo de un <pre> -->
+
+  <p>This is a <pre>preformatted</pre> text.</p>
+
+  <!-- <progress> Represents the progress of a task -->
+  <!-- <progress> sirve para crear un progreso de una tarea lo cual se ocupa para definir un progreso de una tarea en el cliente -->
+
+  <progress></progress>
+
+  <!-- ejemplo de un <progress> -->
+
+  <br>
+  <label for="progress">Progress:</label>
+  <progress id="progress" value="50" max="100"></progress>  
+
+  <!-- <q> Defines a short quotation -->
+  <!-- <q> sirve para crear una cita corta lo cual se ocupa para definir una cita corta en el cliente -->
+
+  <q></q>
+
+  <!-- ejemplo de un <q> -->
+
+  <p>This is a <q>short quotation</q>.</p>
+
+  <!-- <rp> Defines what to show in browsers that do not support ruby annotations -->
+  <!-- <rp> sirve para crear lo que se va a mostrar en los navegadores que no soportan las anotaciones de ruby lo cual se ocupa para definir lo que se va a mostrar en los navegadores que no soportan las anotaciones de ruby en el cliente -->
+
+  <rp></rp>
+
+  <!-- ejemplo de un <rp> -->
+
+  <p>This is a <rp lang="en" dir="ltr">rp</rp>.</p>
+
+  <!-- <rt> Defines an explanation/pronunciation of characters (for East Asian typography)-->
+  <!-- <rt> sirve para crear una explicacion/pronunciacion de caracteres (para tipografia de Asia Oriental) lo cual se ocupa para definir una explicacion/pronunciacion de caracteres (para tipografia de Asia Oriental) en el cliente -->
+
+  <rt></rt>
+
+  <!-- ejemplo de un <rt> -->
+
+  <p>This is a <rt>rt</rt>.</p>
+
+  <!-- <ruby> Defines a ruby annotation (for East Asian typography) -->
+  <!-- <ruby> sirve para crear una anotacion de ruby (para tipografia de Asia Oriental) lo cual se ocupa para definir una anotacion de ruby (para tipografia de Asia Oriental) en el cliente -->
+
+  <ruby></ruby>
+
+  <!-- ejemplo de un <ruby> -->
+
+  <p>This is a <ruby>ruby</ruby>.</p>
+
+  <!-- <s> Defines text that is no longer correct -->
+  <!-- <s> sirve para crear un texto que no es correcto lo cual se ocupa para definir un texto que no es correcto en el cliente -->
+
+  <s></s>
+
+  <!-- ejemplo de un <s> -->
+
+  <p>This is a <s>no longer correct</s> text.</p>
+
+  <!-- <samp> Defines sample output from a computer program -->
+  <!-- <samp> sirve para crear una salida de ejemplo de un programa de computadora lo cual se ocupa para definir una salida de ejemplo de un programa de computadora en el cliente -->
+
+  <samp></samp>
+
+  <!-- ejemplo de un <samp> -->
+
+  <p>This is a <samp>sample</samp> text.</p>
+
+  <!-- <small> Defines smaller text -->
+  <!-- <small> sirve para crear un texto mas pequenyo lo cual se ocupa para definir un texto mas pequenyo en el cliente -->
+
+  <small></small>
+
+  <!-- ejemplo de un <small> -->
+
+  <p>This is a <small>small</small> text.</p>
+
+  <!-- <strike> Defines strikethrough text -->
+  <!-- <strike> sirve para crear un texto que ha sido tachado lo cual se ocupa para definir un texto que ha sido tachado en el cliente -->
+
+  <strike></strike>
+
+  <!-- ejemplo de un <strike> -->
+
+  <p>This is a <strike>strikethrough</strike> text.</p>
+
+  <!-- <strong> Defines important text -->
+  <!-- <strong> sirve para crear un texto importante lo cual se ocupa para definir un texto importante en el cliente -->
+
+  <strong></strong>
+
+  <!-- ejemplo de un <strong> -->
+
+  <p>This is a <strong>strong</strong> text.</p>
+
+  <!-- <sub> Defines subscripted text -->
+  <!-- <sub> sirve para crear un texto subindo lo cual se ocupa para definir un texto subindo en el cliente -->
+
+  <sub></sub>
+
+  <!-- ejemplo de un <sub> -->
+
+  <p>This is a <sub>subscript</sub> text.</p>
+
+  <!-- <sup> Defines superscripted text -->
+  <!-- <sup> sirve para crear un texto subindo lo cual se ocupa para definir un texto subindo en el cliente -->
+
+  <sup></sup>
+
+  <!-- ejemplo de un <sup> -->
+
+  <p>This is a <sup>superscript</sup> text.</p>
+
+  <!-- <templete> Defines a container for content that should be hidden when the page loads -->
+  <!-- <templete> sirve para crear un contenedor para contenido que debe ser ocultado cuando la pagina se cargue lo cual se ocupa para definir un contenedor para contenido que debe ser ocultado cuando la pagina se cargue en el cliente -->
+
+  <templete></templete>
+
+  <!-- ejemplo de un <templete> -->
+
+  <p>This is a <templete id="templete">templete</templete> text.</p>    
+
+  <!-- <time> Defines a specific time (or datetime)-->
+  <!-- <time> sirve para crear una hora especifica (o datetime) lo cual se ocupa para definir una hora especifica (o datetime) en el cliente -->
+
+  <time></time>
+
+  <!-- ejemplo de un <time> -->
+    
+    <!-- fecha y hora actual -->
+
+    <time datetime="<?php echo date('Y-m-d H:i:s'); ?>">la fecha y hora actual</time>
+
+  <!-- <tt> Defines teletype text -->
+  <!-- <tt> sirve para crear un texto de teletexto lo cual se ocupa para definir un texto de teletexto en el cliente -->
+
+  <tt></tt>
+
+  <!-- ejemplo de un <tt> -->
+
+  <p>This is a <tt>teletype</tt> text.</p>
+
+  <!-- <u> Defines a variable -->
+  <!-- <u> sirve para crear una variable lo cual se ocupa para definir una variable en el cliente -->
+
+  <u></u>
+
+  <!-- ejemplo de un <u> -->
+
+  <p>This is a <u>underlined</u> text.</p>
+
+  <!-- <var> Defines a variable -->
+  <!-- <var> sirve para crear una variable lo cual se ocupa para definir una variable en el cliente -->
+
+  <var></var>
+
+  <!-- ejemplo de un <var> -->
+
+  <p>This is a <var>variable</var> text.</p>
+
+  <!-- <wbr> Defines a line break opportunity -->
+  <!-- <wbr> sirve para crear una opcion de salto de linea lo cual se ocupa para definir una opcion de salto de linea en el cliente -->
+
+  <wbr></wbr>
+
+  <!-- ejemplo de un <wbr> -->
+
+  <p>This is a <wbr>line break opportunity</wbr> text.</p>
+
+  <!-- <xmp> Defines a sample of computer code -->
+
+  <xmp></xmp>
+
+  <!-- ejemplo de un <xmp> -->
+
+  <p>This is a <xmp>sample</xmp> text.</p>
+
+  <!-- <zwsp> Defines the zero-width space character -->
+  <!-- <zwsp> sirve para crear el caracter de espacio de longitud cero lo cual se ocupa para definir el caracter de espacio de longitud cero en el cliente -->
+
+  <zwsp></zwsp>
+
+  <!-- ejemplo de un <zwsp> -->
+
+  <p>This is a <zwsp>zero-width space</zwsp> text.</p>
+
+  <!-- <![CDATA[ Defines a CDATA section -->
+
+  <![CDATA[]]>
+
+  <!-- ejemplo de un <![CDATA[ -->
+
+  <p>This is a <![CDATA[sample]]> text.</p>
+
+  <!-- <![if !supportLists]> Defines a conditional comment -->
+  <!-- <![if !supportLists]> sirve para crear un comentario condicional lo cual se ocupa para definir un comentario condicional en el cliente -->
+
+  <![if !supportLists]>
+    <p>This is a <![if !supportLists]>conditional comment</![if !supportLists]> text.</p>
+  <![endif]>
+
+  <!-- ejemplo de un <![if !supportLists]> -->
+
+  <p>This is a <![if !supportLists]>conditional comment</![if !supportLists]> text.</p>
+
+  <!-- <![endif]> Defines a conditional comment -->
+  <!-- <![endif]> sirve para crear un comentario condicional lo cual se ocupa para definir un comentario condicional en el cliente -->
+
+  <![endif]>
+
+  <!-- ejemplo de un <![endif]> -->
+
+  <p>This is a <![endif]>conditional comment</![endif]> text.</p>
+
+</body>
+
 </html>
